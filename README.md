@@ -4,6 +4,45 @@ A Python-based inventory forecasting system that predicts weekly beverage demand
 
 ---
 
+## Key Results
+- Forecasted weekly demand for each bar-brand combination using Exponential Smoothing on historical consumption data
+- Generated data-driven Par Level recommendations (avg. weekly demand + 1.5σ safety buffer) to replace manual, gut-feel inventory ordering
+- Built an automated pipeline that outputs ready-to-use Excel reports and visualizations for purchasing decisions, removing manual reporting effort each cycle
+
+---
+
+## Key Finding
+Manual par-level setting tends to either overestimate demand for slow-moving/niche brands (tying up capital in excess stock) or underestimate demand for high-variance, high-volume brands (causing stockouts during peak periods). A per-bar, per-brand statistical approach corrects both failure modes at once, since it adapts the safety buffer to each item's actual demand variability instead of applying a single flat buffer across the board.
+
+---
+
+# 📸 Results
+
+### 📊 Top 10 Consumed Brands
+
+![](images/top_10_brands.png)
+
+---
+
+### 📈 Weekly Demand Forecast
+
+![](images/weekly_forcast.png)
+
+---
+
+### 📦 Recommended Inventory (Par Level)
+
+![](images/recommended_par_level_graph.png)
+
+---
+
+### 📋 Final Recommendation Table
+
+![](images/recommended_par_level_table.png)
+
+---
+
+
 ## 📌 Project Overview
 
 Managing inventory across multiple hotel bars is challenging due to fluctuating customer demand. Overstocking increases storage costs and product waste, while understocking leads to stockouts and poor customer experience.
