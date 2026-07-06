@@ -119,17 +119,6 @@ This safety buffer helps reduce the risk of stockouts while avoiding unnecessary
 
 ---
 
-## 📷 Sample Outputs
-
-The project generates:
-
-- Top 10 Consumed Brands
-- Weekly Forecast Graph
-- Recommended Par Levels
-- Inventory Recommendation Table
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -204,7 +193,33 @@ The notebook generates:
 - Demand Forecasts
 - Inventory Recommendations
 - Visualization Charts
-- Inventory_Par_Levels.xlsx
+- Inventory_Par_Levels.
+  
+---
+
+# 📸 Results
+
+### 📊 Top 10 Consumed Brands
+
+![](images/top_10_brands.png)
+
+---
+
+### 📈 Weekly Demand Forecast
+
+![](images/weekly_forcast.png)
+
+---
+
+### 📦 Recommended Inventory (Par Level)
+
+![](images/recommended_par_level_graph.png)
+
+---
+
+### 📋 Final Recommendation Table
+
+![](images/recommended_par_level_table.png)
 
 ---
 
