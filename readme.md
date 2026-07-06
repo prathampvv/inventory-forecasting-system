@@ -213,5 +213,6 @@ The notebook generates:
 Pratham Verma
 
 B.Tech Computer Science Engineering
+VIT Vellore
 
 Python | Data Analytics | Machine Learning | SQL | Power BI
